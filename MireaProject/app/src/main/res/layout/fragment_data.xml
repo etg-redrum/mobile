@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DataFragment">
+    android:background="#81C784"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/textIndustryTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Музыка"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginBottom="16sp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/musicimg" />
+
+    <TextView
+        android:id="@+id/textIndustryInfo"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Музыка оказывает положительное воздействие на мои эмоциональные состояния, позволяя мне переживать широкий спектр чувств. Она обогащает мой опыт, являясь источником вдохновения и средством самовыражения. В процессе прослушивания музыкальных композиций я наслаждаюсь артистическими качествами музыки и находя умиротворение в ее звучании."
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="22sp" />
+
+    <!-- Добавьте другие элементы по необходимости -->
+
+</LinearLayout>

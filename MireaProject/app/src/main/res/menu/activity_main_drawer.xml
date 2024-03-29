@@ -10,7 +10,7 @@
             android:title="Data" />
 
         <item
-            android:id="@+id/webViewFragment"
+            android:id="@+id/nav_brauser"
             android:icon="@android:drawable/ic_menu_mapmode"
             android:title="WEB" />
     </group>
