@@ -28,9 +28,16 @@
         android:name="ru.mirea.shchukin.mireaproject.DataFragment"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data" />
+
     <fragment
         android:id="@+id/nav_brauser"
         android:name="ru.mirea.shchukin.mireaproject.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/workerFragment"
+        android:name="ru.mirea.shchukin.mireaproject.WorkerFragment"
+        android:label="fragment_worker"
+        tools:layout="@layout/fragment_worker" />
 </navigation>
