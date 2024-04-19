@@ -18,5 +18,20 @@
             android:id="@+id/workerFragment"
             android:icon="?attr/actionModeSelectAllDrawable"
             android:title="Worker" />
+
+        <item
+            android:id="@+id/sensorFragment"
+            android:icon="@android:drawable/alert_light_frame"
+            android:title="Sensor" />
+
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/recordFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Record" />
     </group>
 </menu>

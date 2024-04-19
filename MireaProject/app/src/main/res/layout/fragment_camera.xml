@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/imageView1"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture Image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="16dp"
+        android:onClick="onCaptureClick"/>
+
+    <Button
+        android:id="@+id/generateCollageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Collage"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/captureButton"
+        android:layout_marginTop="16dp"
+        android:onClick="onGenerateCollageClick"/>
+
+</RelativeLayout>
