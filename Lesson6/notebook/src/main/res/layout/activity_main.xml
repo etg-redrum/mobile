@@ -1,0 +1,40 @@
+<!-- Path: /src/main/res/layout/activity_main.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:hint="Enter file name" />
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@id/editTextFileName"
+        android:layout_marginTop="8dp"
+        android:hint="Enter data" />
+
+    <Button
+        android:id="@+id/btnSaveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:onClick="saveData"
+        android:layout_below="@id/editTextData"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnLoadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Data"
+        android:onClick="loadData"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/editTextData"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
