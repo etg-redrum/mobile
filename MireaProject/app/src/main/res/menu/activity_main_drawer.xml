@@ -33,5 +33,15 @@
             android:id="@+id/recordFragment"
             android:icon="@drawable/ic_menu_camera"
             android:title="Record" />
+
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/convertFragment"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Convertor" />
     </group>
 </menu>
