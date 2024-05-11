@@ -43,5 +43,10 @@
             android:id="@+id/convertFragment"
             android:icon="@android:drawable/alert_dark_frame"
             android:title="Convertor" />
+
+        <item
+            android:id="@+id/fetchData"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Fetch book data" />
     </group>
 </menu>

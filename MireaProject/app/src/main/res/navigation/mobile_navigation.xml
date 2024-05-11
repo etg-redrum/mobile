@@ -70,4 +70,10 @@
         android:name="ru.mirea.shchukin.mireaproject.WorkWithFilesFragment"
         android:label="fragment_convertor"
         tools:layout="@layout/fragment_work_with_files" />
+
+    <fragment
+        android:id="@+id/fetchData"
+        android:name="ru.mirea.shchukin.mireaproject.FetchDataFragment"
+        android:label="fragment_fetch_data"
+        tools:layout="@layout/fragment_fetch_data" />
 </navigation>
