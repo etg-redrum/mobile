@@ -76,4 +76,10 @@
         android:name="ru.mirea.shchukin.mireaproject.FetchDataFragment"
         android:label="fragment_fetch_data"
         tools:layout="@layout/fragment_fetch_data" />
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="ru.mirea.shchukin.mireaproject.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
 </navigation>

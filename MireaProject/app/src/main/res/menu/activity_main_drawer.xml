@@ -48,5 +48,11 @@
             android:id="@+id/fetchData"
             android:icon="@android:drawable/alert_dark_frame"
             android:title="Fetch book data" />
+
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@android:drawable/alert_dark_frame"
+            android:title="Map" />
+
     </group>
 </menu>
